@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
     <head>
-        <title>Image Search</title>
+        <title>Пошук Зображення</title>
         <link type="text/css" rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="search_variant"><a href=index.html>Search</a> <a href=advancedsearch.html>Advanced Search</a></div>
+        <div class="search_variant"><a class="search_variant" href=index.html>Пошук</a> <a class="search_variant" href=advancedsearch.html>Розширений пошук</a></div>
+        <div class="search_center">
+            
+            <h1 id="title_google"><span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: orange;">o</span><span style="color: blue;">g</span><span style="color: green;">l</span><span style="color: red;">e</span></h1>
+            <div class="title_google_ing_adv">Зображення</div>
+            
         <form action="http://www.google.com/images">
-            <input type="text" name="q">
-            <input type="submit" value="Google Image">
+            <input class="search_form_field" type="text" name="q" autofocus>
+            <div>
+            <input class="button_search" type="submit" value="Пошук Зображення">
+            </div>
         </form>
+
+        </div>
     </body>
 </html>

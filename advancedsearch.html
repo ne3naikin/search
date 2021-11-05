@@ -1,14 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
     <head>
-        <title>Advanced Search</title>
+        <title>Розширений Пошук</title>
         <link type="text/css" rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="search_variant"><a href=index.html>Search</a> <a href=imagesearch.html>Image Search</a></div>
+        <div class="search_variant"><a class="search_variant" href=index.html>Пошук</a> <a class="search_variant" href=imagesearch.html>Зображення</a></div>
+        <div class="search_center">
+            
+            <h1 id="title_google"><span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: orange;">o</span><span style="color: blue;">g</span><span style="color: green;">l</span><span style="color: red;">e</span></h1>
+            <div class="title_google_ing_adv">Розширений пошук</div>
+            
+        <!--
         <form action="https://www.google.com/advanced_search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Advanced">
+            <input class="search_form_field" type="text" name="q" autofocus>
+            <div>
+            <input class="button_search" type="submit" value="Розширений пошук">
+            </div>
         </form>
+        -->
+
+        </div>
+        <form action="https://www.google.com/search">
+        <div class="adv_text_title">Знайти сторінки, що містять...</div>
+        <div class="adv_field">
+            <div class="adv_field_search">
+                <span class="slabel"></span><label for="search_q">усіма цими словами:</label></span>
+                <input id="search_q" type="text" name="as_q" autufocus="autofocus" value="">
+                <span class="sdv_help">Введіть важливі слова: триколірний рет-тер’єр</span>
+            </div>
+            <div class="adv_field_search">
+                <label for="search_epq">саме цим словом або фразою:</label>
+                <input id="search_epq" type="text" name="as_epq" value="">
+                <span class="sdv_help">Візьміть точні слова в лапки: "рет-тер’єр"</span>
+            </div>
+            <div class="adv_field_search">
+                <label for="search_oq">будь-яким із цих слів:</label>
+                <input id="search_oq" type="text" name="as_oq" value="">
+                <span class="sdv_help">Введіть OR між усіма потрібними словами: мініатюрні OR стандартні</span>
+            </div> 
+            <div class="adv_field_search">
+                <label for="search_eq" class="adv-lsbel_field_seach">жодне з цих слів:</label>
+                <input id="search_eq" type="text" name="as_eq" value="">
+                <span class="sdv_help">Поставте знак мінус перед небажаними словами: -гризун, -"Джек Рассел"</span>
+            </div>
+            <div class="adv_field_search">
+                <span> </span>
+                <input id="CIGjud" name="tbs" type="hidden" value="">
+                <input class="adv_button_search" type="submit" value="Розширений пошук">
+                <span class="sdv_help"></span>
+            </div>
+        </div>
+        </form>
+        </div>
     </body>
 </html>

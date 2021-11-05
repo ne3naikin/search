@@ -3,9 +3,17 @@
     font-size: 48pt;
 }
 
+.title_google_ing_adv
+{
+    font-size: 14pt;
+    margin: -40px -100px 10px 0px;
+
+}
+
 .search_variant
 {
     text-align: right;
+    margin: 5px 5px 5px 0px;
 }
 
 .search_center
@@ -28,14 +36,22 @@
 .button_search
 {
     text-align: center;
-    margin-top: 15pt;
+    margin: 20pt 10px 10px 0px;
+    /*margin-top: 15pt;
+    margin-left: 10px;
+    margin-right: 10px;*/
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 4px;
-    border: 1px solid #f8f9fa;
+    border: 1px;
     height: 44px;
     font-size: 14pt;
     
+}
+.button_search:hover
+{
+    border: 1px solid #e4e4e4;
+        
 }
 
 .search_form_field
@@ -48,4 +64,67 @@
     font-family: arial,sans-serif;
     width: 50%;
     height: 44px;
+}
+
+/* ################ advanced search ################ */
+.slabel
+{
+
+    border: 1px solid red;
+}
+
+#search_q
+{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 2%;
+    border: 1px solid red;
+}
+/* .adv-lsbel_field_seach
+{
+    float: left;
+    width: 32%;
+    margin-top: 15px;
+    padding: 0px 5px 100px 0px;
+    text-align: left;
+    font-size: 10pt;
+    font-family: verdana,arial,sans-serif;
+    height: 42px;
+}
+*/
+
+.adv_field_search
+{
+    margin: 10px 5px 5px 5px;
+    
+    border: 1px solid lightskyblue;
+}
+
+.adv_button_search
+{
+    text-align: center;
+    margin: 20pt 10px 10px 0px;
+    /*margin-top: 15pt;
+    margin-left: 10px;
+    margin-right: 10px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    background-color: rgb(13, 125, 196);
+    border: 1px solid rgb(13, 125, 196);
+    height: 44px;
+    font-size: 14pt;
+    color: white1
+}
+.adv_button_search:hover
+{
+    border: 1px solid lightskyblue;
+
+}
+
+.sdv_help
+{
+    /*float: right;*/
+    
+    border: 1px solid lightskyblue;
 }
